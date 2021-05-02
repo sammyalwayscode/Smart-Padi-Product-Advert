@@ -1,0 +1,46 @@
+.MainProductCard {
+  /* height: 305px; */
+  width: 300px;
+  /* background-color: darkred; */
+  display: flex;
+  flex-flow: column wrap;
+  /* justify-content: center; */
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 30px;
+}
+
+.CompanyAdDiv {
+  width: 300px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.CompanyLogoDiv {
+  width: 25px;
+}
+
+.CompanyNameDiv {
+  font-weight: lighter;
+  font-size: x-small;
+  margin-left: 7px;
+}
+
+.SubProductCard {
+  width: 270px;
+}
+
+.CompanyLogoName {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 8px;
+}
+
+.ShortDiscriptionDiv {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
